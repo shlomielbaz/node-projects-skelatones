@@ -1,0 +1,20 @@
+{
+  "name": "typescript-express-docker",
+  "version": "1.0.0",
+  "description": "A typescript with express with docker skelatone project",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./dist ",
+    "build": "npm run clean & tsc",
+    "start": "node ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
